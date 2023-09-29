@@ -108,7 +108,7 @@ const rateController = {
 
       return res.status(200).json({
         message: 'Delete rate successfully',
-        product: productId,
+        // product: productId,
       });
     } catch (error) {
       return res.status(500).json({ error: error.message });
